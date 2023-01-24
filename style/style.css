@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI";
+  }
+  .nav {
+    background-color: rgb(39, 38, 43);
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 100px;
+  }
+  .container {
+
+    display: flex;
+    width: 1000px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav h1 {
+    margin: 0;
+  }
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+  }
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .main {
+    background-image: url("../images/image1.jpg");
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    height: 800px;
+    background-repeat: no-repeat;
+  }
+  .main-container {
+  
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-direction: column;
+  }
+
+  .main-container h2 {
+    font-size: 42px;
+    color: white;
+    text-align: center;
+    width: 40%;
+  }
+  .main-container button {
+    background-color: teal;
+    color: white;
+    text-align: center;
+    padding: 12px 52px;
+    font-size: 24px;
+    border-radius: 999px;
+  }
+  section{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    margin:auto;
+    gap:20;
+    background-color: white;
+    
+  }
+  article{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 30px;
+    gap:20px;
+    background-color: white;
+    
+  }
+  article img{
+
+    justify-content: center;
+    align-items: center;
+    fill: teal;
+    color:teal;
+    margin: auto;
+  }
+  article h3{
+    margin: auto;
+  }
+  article p{
+    margin: auto;
+    color: gray;
+  }
