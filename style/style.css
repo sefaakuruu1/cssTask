@@ -10,7 +10,6 @@ body {
     height: 100px;
   }
   .container {
-
     display: flex;
     width: 1000px;
     align-items: center;
@@ -38,15 +37,13 @@ body {
     background-repeat: no-repeat;
   }
   .main-container {
-  
     width: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    grid-gap: 10px;
     flex-direction: column;
   }
-
   .main-container h2 {
     font-size: 48px;
     font-family: 'Inter', sans-serif;
@@ -55,39 +52,39 @@ body {
     width: 50%;
   }
   .main-container button {
+    width:38%;
     background-color: teal;
     color: white;
     text-align: center;
-    padding: 12px 52px;
+    padding: 9px 15px;
     font-size: 24px;
-    border-radius: 999px;
+    border-radius: 24px;
   }
   section{
+    padding-bottom: 50px;
     display: flex;
     width: 1000px;
     justify-content: space-between;
-    margin:auto;
-    gap:30px;
-    background-color: white;
-    
+    margin: auto;
+    gap: 25px;
+    background-color: white;  
   }
   article{
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-    grid-gap:15px;
+    grid-gap: 15px;
     background-color: white;
-    
-    
-  }
+       }
   article img{
-    width:250;
+    width: 250;
     height: 600;
     justify-content: center;
     align-items: center;
     fill: teal;
-    color:teal;
+    color: teal;
     margin: auto;
+    
   }
   article h3{
     margin: auto;
@@ -95,4 +92,5 @@ body {
   article p{
     margin: auto;
     color: gray;
+    text-align: center;
   }
